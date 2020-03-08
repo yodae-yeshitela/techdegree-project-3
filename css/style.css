@@ -127,6 +127,15 @@ option {
 	font-family: 'roboto', sans-serif;
 }
 
+
+/* Custom styles */
+
+textarea.isValid,input.isValid{
+	border-color: green;
+}
+textarea.hasError,input.hasError{
+	border-color: red;
+}
 /* ================================= 
   Page Styles
 ==================================== */
@@ -179,7 +188,9 @@ option {
   display: table;
   clear: both;
 }
-
+.error-message{
+	color: red;
+}
 /* ================================= 
   Media Queries
 ==================================== */
